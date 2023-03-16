@@ -1,4 +1,4 @@
-package com.canonal.canvascompose
+package com.canonal.canvascompose.canvas_basics
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.padding
