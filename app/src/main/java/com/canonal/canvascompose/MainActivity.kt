@@ -3,8 +3,7 @@ package com.canonal.canvascompose
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.canonal.canvascompose.canvas_basics.DrawTextOnCanvas
-import com.canonal.canvascompose.canvas_basics.MainScreen
+import com.canonal.canvascompose.weight_picker.WeightSelectionScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,7 +11,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             //MyCanvas()
             //MainScreen()
-            DrawTextOnCanvas()
+            //DrawTextOnCanvas()
+            WeightSelectionScreen()
         }
     }
 }
