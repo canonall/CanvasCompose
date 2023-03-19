@@ -3,7 +3,7 @@ package com.canonal.canvascompose
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.canonal.canvascompose.weight_picker.WeightSelectionScreen
+import com.canonal.canvascompose.clock.ClockWall
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,7 +12,8 @@ class MainActivity : ComponentActivity() {
             //MyCanvas()
             //MainScreen()
             //DrawTextOnCanvas()
-            WeightSelectionScreen()
+            //WeightSelectionScreen()
+            ClockWall()
         }
     }
 }
