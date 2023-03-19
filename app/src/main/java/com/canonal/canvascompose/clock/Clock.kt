@@ -114,7 +114,8 @@ fun Clock(
         )
         // draw hour hand
         val hourHandLength = minuteHandLength - 75f
-        val hourAngleInRadian = ((hour * 30f - 90f) * (PI.toFloat() / 180f))
+        val hourWithMinuteFraction = hour + minute / 60f
+        val hourAngleInRadian = ((hourWithMinuteFraction * 30f - 90f) * (PI.toFloat() / 180f))
         val hourHandStart = center
         val hourHandEnd = Offset(
             x = hourHandLength * cos(hourAngleInRadian),
