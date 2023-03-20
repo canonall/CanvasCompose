@@ -7,6 +7,7 @@ import com.canonal.canvascompose.clock.ClockWall
 import com.canonal.canvascompose.path.AnimatePath
 import com.canonal.canvascompose.path.PathBasics
 import com.canonal.canvascompose.path.PathOperations
+import com.canonal.canvascompose.path.TransformationAndClipping
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +20,8 @@ class MainActivity : ComponentActivity() {
             //ClockWall()
             //PathBasics()
             //PathOperations()
-            AnimatePath()
+            //AnimatePath()
+            TransformationAndClipping()
         }
     }
 }
