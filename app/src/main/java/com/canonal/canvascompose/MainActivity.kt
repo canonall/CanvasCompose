@@ -19,7 +19,8 @@ class MainActivity : ComponentActivity() {
             //PathOperations()
             //AnimatePath()
             //TransformationAndClipping()
-            PathEffects()
+            //PathEffects()
+            TextOnPath()
         }
     }
 }
